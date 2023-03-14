@@ -10,7 +10,7 @@ Publish your blog with a stylish, responsive, and easily customizable Bootstrap 
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
 - [Usage](#usage)
-   - [Updating your resume](#updating-your-resume)
+   - [Updating your blog](#updating-your-blog)
 - [Roadmap](#roadmap)
 - [Conrtibuting](#contributing)
 
@@ -84,7 +84,7 @@ git push dokku master
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-### Updating your resume
+### Updating your blog
 As you update your blog, push to your main branch and then deploy to your Dokku host via the steps above.
 
 
