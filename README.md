@@ -1,5 +1,5 @@
-# dokku-resume
-Publish your resume displayed in a stylish, responsive, and easily customizable Bootstrap layout using Dokku
+# dokku-static-blog
+Publish your blog with a stylish, responsive, and easily customizable Bootstrap layout using Dokku
 
 ![example](./example.png)
 
@@ -18,7 +18,7 @@ Publish your resume displayed in a stylish, responsive, and easily customizable 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project is intended to provide a way to quickly and easily publish your resume using Dokku. It combines [dokku-static-site](https://github.com/glogiotatidis/dokku-static-site) with [startbootstrap-resume](https://github.com/StartBootstrap/startbootstrap-resume). 
+This project is intended to provide a way to quickly and easily publish your blog using Dokku. It combines [dokku-static-site](https://github.com/glogiotatidis/dokku-static-site) with [startbootstrap-clean-blog](https://github.com/StartBootstrap/startbootstrap-clean-blog). 
 
 
 ### Built With
@@ -26,7 +26,7 @@ This project is intended to provide a way to quickly and easily publish your res
 * [Dokku](https://dokku.com/)
 * [Digital Ocean](https://marketplace.digitalocean.com/apps/dokku/)
 * [dokku-static-site](https://github.com/glogiotatidis/dokku-static-site)
-* [startbootstrap-resume](https://github.com/StartBootstrap/startbootstrap-resume)
+* [startbootstrap-clean-blog](https://github.com/StartBootstrap/startbootstrap-clean-blog)
 
 
 <!-- GETTING STARTED -->
@@ -45,18 +45,18 @@ Follow the steps below to set up the project locally.
 
 2. Clone the repo specifying your project name and navigate to the directory
    ```sh
-   git clone https://github.com/{your-github-username}/dokku-resume.git
+   git clone https://github.com/{your-github-username}/dokku-static-blog.git
    cd dokku-resume
    ```
 
    Alternatively, you can specify your own project name by appending it to the `git clone` command. Then just substitute it in the following commands:
    ```sh
-   git clone https://github.com/{your-github-username}/dokku-resume.git my-project-name
+   git clone https://github.com/{your-github-username}/dokku-static-blog.git my-project-name
    cd my-project-name
    ```
 
    
-3. Update the [resume template](docs/index.html) with your resume details and commit the change:
+3. Update the templates and commit the change:
    ```sh
     git add .
     git commit -m "<Commit message>"
@@ -67,13 +67,13 @@ Follow the steps below to set up the project locally.
 1. Create the app
 ```
 # on the Dokku host
-dokku apps:create dokku-resume
+dokku apps:create dokku-static-blog
 ```
 
 2. Add the dokku host as a git remote
 
 ```
-git remote add dokku dokku@{my-host.com}:dokku-resume
+git remote add dokku dokku@{my-host.com}:dokku-static-blog
 ```
 
 3. Push to dokku
@@ -85,7 +85,7 @@ git push dokku master
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### Updating your resume
-As you update your resume, push to your main branch and then deploy to your Dokku host via the steps above.
+As you update your blog, push to your main branch and then deploy to your Dokku host via the steps above.
 
 
 <!-- ROADMAP -->
