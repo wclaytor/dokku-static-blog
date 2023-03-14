@@ -1,7 +1,7 @@
 # dokku-static-blog
 Publish your blog with a stylish, responsive, and easily customizable Bootstrap layout using Dokku
 
-![example](./example.png)
+![example](./example.jpg)
 
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
